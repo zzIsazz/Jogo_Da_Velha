@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Koulen';
+    color:white;
+    
+}
+
+h2, h3 {
+    margin-top: 300px;
+    text-align:center; 
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#tela-escura {
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    color: palevioletred;
+    display: none;
+    position: absolute;
+    background-color: black;
+    animation: fadein 2s;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    border: 3px solid black
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.celula {
+    width: 70px;
+    height: 65px;
+    font-size: 40px;
+    margin: 4px 4px;
+    font-weight: 350;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fd788b;
+}
+hover {width: 300px;}
+button{
+    background-color: #fd788b;
+    color: white;
+    font-family:'Koulen';
+    letter-spacing: 2px;
+    width: 80px;
+    height: 50px;
+    border-style: n;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    border: solid black;
+  
+}
+
