@@ -1,7 +1,7 @@
 const celulas = document.querySelectorAll(".celula");
 let checarTurno = true;
 var audio = new Audio('./sons/SomUm.mp3');
-var dois = new Audio
+var dois = new Audio('./sons/SomDois.mp3')
 
 const JOGADOR_X = "X";
 const JOGADOR_O = "O";
@@ -85,6 +85,7 @@ function checarEmpate(){
              audio.play();
          } else {
              h2.innerHTML = "Deu empate!";
+             dois.play();
           }
 
        setTimeout(() => location.reload(), 4000);
